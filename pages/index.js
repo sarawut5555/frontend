@@ -49,7 +49,7 @@ export default function Home() {
             priority
           />
         </div>
-          <h3>Mr.sarawut kaikaew</h3>
+          <h3>Mr.sarawut kaikaew 036 Vercel</h3>
         <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
