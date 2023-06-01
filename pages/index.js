@@ -11,11 +11,11 @@ export default function index() {
     </Head>
     <div>
   <header data-bs-theme="dark">
-    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-warning">
       <div className="container-fluid">
       <Link className="navbar-brand" href="/">
-        <Image src="/xcxc.jpg" alt="Logo" width={30} height={24} className="bd-placeholder-img rounded-circle" />
-            charlotte
+        <Image src="/orange.png" alt="Logo" width={30} height={24} className="bd-placeholder-img rounded-circle" />
+            orange shop
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
@@ -57,7 +57,8 @@ export default function index() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
+          <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange2.jpg"></Image>
+          <svg className="bd-placeholder-img" width="100%" height="100%"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
           <div className="container">
             <div className="carousel-caption text-start">
               <h1>Example headline.</h1>
@@ -103,7 +104,7 @@ export default function index() {
       {/* Three columns of text below the carousel */}
       <div className="row">
         <div className="col-lg-4">
-          <img className="bd-placeholder-img rounded-circle" width={140} height={140}src='/xcxc.jpg'></img>
+          <Image className="bd-placeholder-img rounded-circle" width={140} height={140}src='/orange.png'></Image>
           <h2 className="fw-normal">Heading</h2>
           <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
           <p><a className="btn btn-secondary" href="#">View details »</a></p>

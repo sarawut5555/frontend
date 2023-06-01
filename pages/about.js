@@ -9,11 +9,11 @@ export default function about() {
     <Head>
       <title>About</title>
     </Head>
-    <header data-bs-theme="dark">
-        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <header data-bs-theme="light">
+        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-warning">
         <div className="container-fluid">
         <Link className="navbar-brand" href="/">
-        <Image src="/xcxc.jpg" alt="Logo" width={30} height={24} className="bd-placeholder-img rounded-circle" />
+        <Image src="/orange.png" alt="Logo" width={30} height={24} className="bd-placeholder-img rounded-circle" />
             charlotte
         </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
