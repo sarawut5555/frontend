@@ -28,15 +28,8 @@ export default function index() {
             <li className="nav-item">
               <Link className="nav-link active" href="/about">about</Link>
             </li>
-            <li className="nav-item dropdown">
-                <Link className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Contact
-                </Link>
-                <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" href="#">Line</Link></li>
-                    <li><Link className="dropdown-item" href="#">Instagram</Link></li>
-                    <li><Link className="dropdown-item" href="#">Facebook</Link></li>
-                </ul>
+            <li className="nav-item">
+              <Link className="nav-link active" href="/contect">contect</Link>
             </li>
           </ul>
           <form className="d-flex" role="search">
@@ -50,42 +43,21 @@ export default function index() {
   
   <main>
     <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
-      <div className="carousel-indicators">
+      {/* <div className="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to={1} aria-label="Slide 2" />
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to={2} aria-label="Slide 3" />
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange2.jpg"></Image>
-          <svg className="bd-placeholder-img" width="100%" height="100%"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
-          <div className="container">
-            <div className="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p className="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a className="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-            </div>
-          </div>
+          <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange4.jpg"></Image>
         </div>
         <div className="carousel-item">
-          <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-          <div className="container">
-            <div className="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
-            </div>
-          </div>
+        <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange7.jpg"></Image>
         </div>
         <div className="carousel-item">
-          <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-          <div className="container">
-            <div className="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-            </div>
-          </div>
+        <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange2.jpg"></Image>
+          
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -95,71 +67,65 @@ export default function index() {
       <button className="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true" />
         <span className="visually-hidden">Next</span>
-      </button>
+      </button> */}
     </div>
     {/* Marketing messaging and featurettes
   ================================================== */}
     {/* Wrap the rest of the page in another container to center all the content. */}
+    <br />
+    <br />
+    <br />
     <div className="container marketing">
       {/* Three columns of text below the carousel */}
       <div className="row">
         <div className="col-lg-4">
           <Image className="bd-placeholder-img rounded-circle" width={140} height={140}src='/orange.png'></Image>
-          <h2 className="fw-normal">Heading</h2>
-          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-          <p><a className="btn btn-secondary" href="#">View details »</a></p>
+          <h2 className="fw-normal">ส้ม</h2>
+          <p>ส้ม เป็นไม้พุ่มหรือไม้ต้นขนาดเล็กหลายชนิด เป็นพืชใบเลี้ยงคู่ สกุล Citrus วงศ์ Rutaceae มีด้วยกันนับร้อยชนิด เติบโตกระจายอยู่ทั่วโลก โดยมากจะมีน้ำมันหอมระเหยในใบ ดอก และผล และมีกลิ่นฉุน</p>
         </div>{/* /.col-lg-4 */}
         <div className="col-lg-4">
-          <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-          <h2 className="fw-normal">Heading</h2>
-          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-          <p><a className="btn btn-secondary" href="#">View details »</a></p>
+        <Image className="bd-placeholder-img rounded-circle" width={140} height={140}src='/orange5.jpg'></Image>
+          <h2 className="fw-normal">น้ำส้มคั้น</h2>
+          <p>น้ำส้มคั้น หมายถึง น้ำส้มที่ผ่านกรรมวิธีได้จากการคั้นโดยตรงจากส่วนที่บริโภคได้ของผลส้มที่แก่สุก และสด</p>
         </div>{/* /.col-lg-4 */}
         <div className="col-lg-4">
-          <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-          <h2 className="fw-normal">Heading</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
-          <p><a className="btn btn-secondary" href="#">View details »</a></p>
+        <Image className="bd-placeholder-img rounded-circle" width={140} height={140}src='/orange6.jpg'></Image>
+          <h2 className="fw-normal">ส้มเขียวหวาน</h2>
+          <p>ส้มเขียวหวาน เป็นส้มพันธุ์ปลูกหนึ่ง ที่พัฒนาสายพันธุ์มาจากส้มแมนดาริน มีผิวสีเขียวอมเหลืองเมื่อสุกต่างจากส้มแมนดารินเมื่อสุกสีส้มล้วน แหล่งปลูกที่เป็นที่รู้จักคือ บางมด</p>
+          {/* v */}
         </div>{/* /.col-lg-4 */}
       </div>{/* /.row */}
       {/* START THE FEATURETTES */}
       <hr className="featurette-divider" />
       <div className="row featurette">
         <div className="col-md-7">
-          <h2 className="featurette-heading fw-normal lh-1">First featurette heading. <span className="text-body-secondary">It’ll blow your mind.</span></h2>
-          <p className="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+          <h2 className="featurette-heading fw-normal lh-1">Sunkist brand</h2>
+          <p className="lead">เป็นสหกรณ์สมาชิกที่ไม่มีสต็อกของเกษตรกรผู้ปลูกส้มในอเมริกา ซึ่งประกอบด้วยสมาชิก 6,000 รายจากแคลิฟอร์เนียและแอริโซนา ปัจจุบันมีสำนักงานใหญ่อยู่ที่เมืองวาเลนเซีย รัฐแคลิฟอร์เนีย ผ่านสำนักงาน 31 แห่งในสหรัฐอเมริกาและแคนาดา</p>
         </div>
         <div className="col-md-5">
-          <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        <Image className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500}src="/orange4.jpg"></Image>
         </div>
       </div>
       <hr className="featurette-divider" />
       <div className="row featurette">
         <div className="col-md-7 order-md-2">
-          <h2 className="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span className="text-body-secondary">See for yourself.</span></h2>
-          <p className="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+          <h2 className="featurette-heading fw-normal lh-1">ที่มาของส้ม</h2>
+          <p className="lead">ในปี พ.ศ.330 นายพล Alexander นำเอาซิตรอนจากประเทศที่รบชนะ เช่น อิหร่าน ไปปลูกในยุโรป และแพร่กระจายไปแถบประเทศเมดิเตอเรเนียน มีส้มชนิดต่างๆ ได้แก่  ซาวออเรนซ์ เลมอน ไลม์ สวีทออเรนซ์ และแมนดาริน ตามลำดับ การแพร่กระจายพันธุ์นี้เข้าใจว่าอยู่ในช่วงของสงครามครูเสด โดยแพร่กระจายไปยังประเทศอิตาลี สเปน โปรตุเกส และอัฟริกาตอนเหนือ
+          โคลัมบัสได้นำพันธุ์ส้มมาปลูกทางแถบประเทศตะวันตก ในปี ค.ศ.1943 ได้มีการรวบรวมเมล็ดของออเรนซ์ เลมอน และซิตรอน จากหมู่เกาะคานารีไปปลูกที่เมืองฮิปานีโอลา ต่อมาได้แพร่กระจายพันธุ์ไปยังแถบทะเลคาริบเบียนและส่วนอื่นๆของทวีปยุโรป
+          ในศตวรรษที่ 16 - 17 โคลัมบัสได้นำส้มไปปลูกชายฝั่งอเมริกาใต้ และอัฟริกากับออสเตรเลียเป็นแหล่งสุดท้าย ในสมัยก่อนนักเดินทางและมิชชันนารีเป็นผู้ช่วยแพร่กระจายพันธุ์ส้มได้ดี โดยเฉพาะอย่างยิ่งมักรู้จักกันดีในรูปของเครื่องดื่มแก้กระหาย ในกองทัพเรืออังกฤษดื่มน้ำมะนาวทุกวัน  ส้มพวกแรกที่แพร่เข้าไปในยุโรป คือ ซิตรอน ต่อมามีพวกแมนดาริน ออเรนซ์ แพร่กระจายไปเป็นระยะ</p>
         </div>
         <div className="col-md-5 order-md-1">
-          <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+          <Image className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500}src="/orange2.jpg"></Image>
         </div>
       </div>
-      <hr className="featurette-divider" />
-      <div className="row featurette">
-        <div className="col-md-7">
-          <h2 className="featurette-heading fw-normal lh-1">And lastly, this one. <span className="text-body-secondary">Checkmate.</span></h2>
-          <p className="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-        </div>
-        <div className="col-md-5">
-          <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-        </div>
-      </div>
+      
       <hr className="featurette-divider" />
       {/* /END THE FEATURETTES */}
     </div>{/* /.container */}
     {/* FOOTER */}
     <footer className="container">
       <p className="float-end"><a href="#">Back to top</a></p>
-      <p>© 2017–2023 Company, Inc. · <a href="#">Privacy</a> . <a href="#">Terms</a></p>
+      <p>2023 orange, shop.</p>
     </footer>
   </main>
 </div>
