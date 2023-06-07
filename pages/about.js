@@ -28,7 +28,7 @@ export default function about() {
               <Link className="nav-link active" href="/about">about</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" href="/contect">contect</Link>
+              <Link className="nav-link active" href="/contact">contact</Link>
             </li>
           </ul>
         <form className="d-flex" role="search">

@@ -3,11 +3,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function contect() {
+export default function contact() {
   return (
     <>
     <Head>
-      <title>contect</title>
+      <title>contact</title>
     </Head>
     <header data-bs-theme="light">
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-warning">
@@ -28,7 +28,7 @@ export default function contect() {
               <Link className="nav-link active" href="/about">about</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" href="/contect">contect</Link>
+              <Link className="nav-link active" href="/contact">contact</Link>
             </li>
            </ul>
         <form className="d-flex" role="search">
