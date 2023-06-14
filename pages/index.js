@@ -10,7 +10,7 @@ export default function index() {
       <title>Welcome to NextJs</title>
     </Head>
     <div>
-  <header data-bs-theme="dark">
+  <header data-bs-theme="light">
     <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-warning">
       <div className="container-fluid">
       <Link className="navbar-brand" href="/">
@@ -43,20 +43,20 @@ export default function index() {
   
   <main>
     <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
-      {/* <div className="carousel-indicators">
+       <div className="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to={1} aria-label="Slide 2" />
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to={2} aria-label="Slide 3" />
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange4.jpg"></Image>
+          <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange10.jpg"></Image>
         </div>
         <div className="carousel-item">
-        <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange7.jpg"></Image>
+        <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange12.jpg"></Image>
         </div>
         <div className="carousel-item">
-        <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange2.jpg"></Image>
+        <Image className="bd-placeholder-img" width="1700" height="800"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"src="/orange11.jpg"></Image>
           
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function index() {
       <button className="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true" />
         <span className="visually-hidden">Next</span>
-      </button> */}
+      </button>
     </div>
     {/* Marketing messaging and featurettes
   ================================================== */}
@@ -79,13 +79,13 @@ export default function index() {
       {/* Three columns of text below the carousel */}
       <div className="row">
         <div className="col-lg-4">
-          <Image className="bd-placeholder-img rounded-circle" width={140} height={140}src='/orange.png'></Image>
-          <h2 className="fw-normal">ส้ม</h2>
+          <Image className="bd-placeholder-img rounded-circle" width={140} height={140}src='/orange14.jpg'></Image>
+          <h2 className="fw-normal">ส้มเกลี้ยง</h2>
           <p>ส้ม เป็นไม้พุ่มหรือไม้ต้นขนาดเล็กหลายชนิด เป็นพืชใบเลี้ยงคู่ สกุล Citrus วงศ์ Rutaceae มีด้วยกันนับร้อยชนิด เติบโตกระจายอยู่ทั่วโลก โดยมากจะมีน้ำมันหอมระเหยในใบ ดอก และผล และมีกลิ่นฉุน</p>
         </div>{/* /.col-lg-4 */}
         <div className="col-lg-4">
-        <Image className="bd-placeholder-img rounded-circle" width={140} height={140}src='/orange5.jpg'></Image>
-          <h2 className="fw-normal">น้ำส้มคั้น</h2>
+        <Image className="bd-placeholder-img rounded-circle" width={140} height={140}src='/orange13.jpg'></Image>
+          <h2 className="fw-normal">ส้มจุก</h2>
           <p>น้ำส้มคั้น หมายถึง น้ำส้มที่ผ่านกรรมวิธีได้จากการคั้นโดยตรงจากส่วนที่บริโภคได้ของผลส้มที่แก่สุก และสด</p>
         </div>{/* /.col-lg-4 */}
         <div className="col-lg-4">
@@ -96,16 +96,7 @@ export default function index() {
         </div>{/* /.col-lg-4 */}
       </div>{/* /.row */}
       {/* START THE FEATURETTES */}
-      <hr className="featurette-divider" />
-      <div className="row featurette">
-        <div className="col-md-7">
-          <h2 className="featurette-heading fw-normal lh-1">Sunkist brand</h2>
-          <p className="lead">เป็นสหกรณ์สมาชิกที่ไม่มีสต็อกของเกษตรกรผู้ปลูกส้มในอเมริกา ซึ่งประกอบด้วยสมาชิก 6,000 รายจากแคลิฟอร์เนียและแอริโซนา ปัจจุบันมีสำนักงานใหญ่อยู่ที่เมืองวาเลนเซีย รัฐแคลิฟอร์เนีย ผ่านสำนักงาน 31 แห่งในสหรัฐอเมริกาและแคนาดา</p>
-        </div>
-        <div className="col-md-5">
-        <Image className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500}src="/orange4.jpg"></Image>
-        </div>
-      </div>
+      
       <hr className="featurette-divider" />
       <div className="row featurette">
         <div className="col-md-7 order-md-2">
@@ -118,7 +109,16 @@ export default function index() {
           <Image className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500}src="/orange2.jpg"></Image>
         </div>
       </div>
-      
+      <hr className="featurette-divider" />
+      <div className="row featurette">
+        <div className="col-md-7">
+          <h2 className="featurette-heading fw-normal lh-1">Sunkist brand</h2>
+          <p className="lead">เป็นสหกรณ์สมาชิกที่ไม่มีสต็อกของเกษตรกรผู้ปลูกส้มในอเมริกา ซึ่งประกอบด้วยสมาชิก 6,000 รายจากแคลิฟอร์เนียและแอริโซนา ปัจจุบันมีสำนักงานใหญ่อยู่ที่เมืองวาเลนเซีย รัฐแคลิฟอร์เนีย ผ่านสำนักงาน 31 แห่งในสหรัฐอเมริกาและแคนาดา</p>
+        </div>
+        <div className="col-md-5">
+        <Image className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500}src="/orange4.jpg"></Image>
+        </div>
+      </div>
       <hr className="featurette-divider" />
       {/* /END THE FEATURETTES */}
     </div>{/* /.container */}
