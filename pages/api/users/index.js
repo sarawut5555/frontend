@@ -8,12 +8,12 @@ const connection = mysql.createConnection({
 });
 
 export default function handler(req, res) {
-
-connection.query(
-  'SELECT * FROM  tbl_users',
-  function(err, results) {
-    console.log(results); // results contains rows returned by server
-    res.status(200).json({users: results}); // fields contains extra meta data about results, if available
+  const { id } = req.query
+  connection.query(
+    'SELECT * FROM  tbl_users',
+    function(err, results) {
+      console.log(results); // results contains rows returned by server
+      res.status(200).json({users: results}); // fields contains extra meta data about results, if available
     }
   );
 }
