@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export async function getServerSideProps(req) {
     const { id } = req.query
-    const res = await fetch('https://frontend-ib7j.vercel.app/api/users/' + id, {
+    const res = await fetch('https://frontend-ecru-nine.vercel.app/api/users/' + id, {
       method: 'GET',
     })
     const posts = await res.json();
@@ -34,7 +34,7 @@ export default function Component({ posts }) {
       status: data.get('txt_status')
     }
 
-      fetch(`https://frontend-ib7j.vercel.app/api/users`, {
+      fetch(`https://frontend-ecru-nine.vercel.app/api/users`, {
         method: 'PUT', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',

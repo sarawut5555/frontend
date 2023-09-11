@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from "next/router";
 
 export async function getServerSideProps() {
-  const res = await fetch('https://frontend-ib7j.vercel.app/api/users')
+  const res = await fetch('https://frontend-ecru-nine.vercel.app/api/users')
   const posts = await res.json();
 
   return {
@@ -21,7 +21,7 @@ export default function Component({ posts }) {
 
 const handleDelete = async (id) => {
    console.log("ID : ", id);
-fetch('https://frontend-ib7j.vercel.app/api/users?id=' + id, {
+fetch('https://frontend-ecru-nine.vercel.app/api/users?id=' + id, {
   method: 'DELETE',
 })
 return router.reload('/dashboard')
